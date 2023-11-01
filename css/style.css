@@ -405,7 +405,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: radial-gradient(ellipse at center, rgba(170, 145, 102, 0) 0%, #aa9166 100%);
+    background: #aa9166 
 }
 
 .page-header h2 {
