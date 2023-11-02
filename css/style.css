@@ -4,7 +4,7 @@
 body {
     color: #666666;
     background: #ffffff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', serif;
     font-weight: 400;
 }
 
@@ -14,7 +14,7 @@ h3,
 h4,
 h5, 
 h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', serif;
 
 
     font-weight: 400;
@@ -120,7 +120,7 @@ a:focus {
 
 .top-bar .text h2 {
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 25px;
@@ -327,7 +327,7 @@ a:focus {
 .carousel .carousel-caption h1 {
     color: #ffffff;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
@@ -601,8 +601,17 @@ a:focus {
     position: relative;
     height: 100%;
     padding: 10px;
-    background: #aa9166;
+    border: 1px solid #ccc; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s; 
+    
 }
+
+.about .about-img:hover {
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
 
 .about .about-img img {
     width: 100%;
@@ -657,6 +666,9 @@ a:focus {
     text-align: center;
     background: #121518;
     margin-bottom: 30px;
+    border: 1px solid #ccc; /* Borde normal */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra normal */
+    transition: all 0.3s; /* Agrega una transición suave para un efecto de desvanecimiento */
 }
 
 .service .service-icon {
@@ -666,6 +678,9 @@ a:focus {
     align-items: center;
     justify-content: center;
     background: #000000;
+    border: 1px solid #000000; /* Borde normal */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra normal */
+    transition: all 0.3s; /* Agrega una transición suave para un efecto de desvanecimiento */
 }
 
 .service .service-icon i {
@@ -783,9 +798,16 @@ a:focus {
     position: relative;
     height: 100%;
     padding: 10px;
-    background: #aa9166;
-    border-radius: 5px;
+   border: 1px solid #ccc; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s; 
 }
+
+.feature .feature-img:hover {
+border: 2px solid #f0f0f0; 
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); 
+}
+
 
 .feature .feature-img img {
     width: 100%;
@@ -809,6 +831,13 @@ a:focus {
 
 .team .team-img {
     position: relative;
+       border: 1px solid #ccc; /* Borde normal */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra normal */
+    transition: all 0.3s; /* Agrega una transición suave para un efecto de desvanecimiento */
+}
+.team .team-img:hover {
+border: 2px solid #6f7275; /* Cambia el borde al hacer hover */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); /* Cambia la sombra al hacer hover */
 }
 
 .team .team-img img {
@@ -885,8 +914,13 @@ a:focus {
     position: relative;
     height: 100%;
     padding: 10px;
-    background: #aa9166;
-    border-radius: 5px;
+   border: 1px solid #ccc; /* Borde normal */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra normal */
+    transition: all 0.3s; /* Agrega una transición suave para un efecto de desvanecimiento */
+}
+.faqs .faqs-img:hover {
+    border: 2px solid #e1e2e2; /* Cambia el borde al hacer hover */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); /* Cambia la sombra al hacer hover */
 }
 
 .faqs .faqs-img img {
@@ -932,6 +966,7 @@ a:focus {
 
 .faqs .card-header a span {
     display: inline-block;
+    border-radius: 5px;
     width: 40px;
     height: 40px;
     margin-right: 10px;
@@ -1028,6 +1063,7 @@ a:focus {
 
 .testimonial .testimonial-item img {
     width: 100%;
+    
 }
 
 .testimonial .testimonial-item h2 {
@@ -1276,7 +1312,7 @@ a:focus {
     padding: 5px 10px;
     color: #121518;
     background: #aa9166;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
 
