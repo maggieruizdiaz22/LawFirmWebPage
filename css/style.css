@@ -176,6 +176,11 @@ a:focus {
     .top-bar .social {
         display: none;
     }
+    .top-bar .top-bar-right {
+        display: initial; /* O display: block; */
+        align-items: initial;
+        justify-content: initial;
+    }
 }
 
 
